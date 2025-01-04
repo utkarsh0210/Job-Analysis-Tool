@@ -7,7 +7,7 @@ import time
 from datetime import datetime as dt
 import random as rd
 
-data = pd.read_csv(r"C:\\Users\\utkun\\Desktop\\Minor-1\\clean.csv")
+data = pd.read_csv(r"clean.csv")
 #print(data.head())
 
 title_html = """
