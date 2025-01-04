@@ -6,6 +6,7 @@ import streamlit.components.v1 as components
 import time
 from datetime import datetime as dt
 import random as rd
+import matplotlib.pyplot as plt
 
 data = pd.read_csv(r"clean.csv")
 #print(data.head())
