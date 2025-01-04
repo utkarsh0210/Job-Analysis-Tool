@@ -6,13 +6,6 @@ import streamlit.components.v1 as components
 import time
 from datetime import datetime as dt
 import random as rd
-from wordcloud import WordCloud , STOPWORDS
-import matplotlib
-matplotlib.use('Agg')  # Set the backend before importing pyplot
-import matplotlib.pyplot as plt
-import plotly.express as px
-import plotly.graph_objs as go
-from plotly.offline import init_notebook_mode, plot, iplot
 
 data = pd.read_csv(r"C:\\Users\\utkun\\Desktop\\Minor-1\\clean.csv")
 #print(data.head())
