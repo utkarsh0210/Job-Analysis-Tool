@@ -60,7 +60,7 @@ plt.ylabel("Count")
 st.pyplot(fig)
 
 
-IMAGE_DIR = 'E:\minor_flask\images'
+IMAGE_DIR = 'images'
 # Function to load images from the directory
 def load_images(image_dir):
     image_files = [f for f in os.listdir(image_dir) if os.path.isfile(os.path.join(image_dir, f))]
