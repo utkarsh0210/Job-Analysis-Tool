@@ -76,7 +76,7 @@ def load_images(image_dir):
 images = load_images(IMAGE_DIR)
 i=0
 while(i<len(images)):
-    st.image(images[i][1], caption=images[i][0], use_column_width=True)
+    st.image(images[i][1], caption=images[i][0], use_container_width=True)
     i=i+1
 
 
