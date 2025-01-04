@@ -7,7 +7,9 @@ import time
 from datetime import datetime as dt
 import random as rd
 import matplotlib.pyplot as plt
-
+import plotly.express as px
+import plotly.graph_objs as go
+from plotly.offline import init_notebook_mode, plot, iplot
 data = pd.read_csv(r"clean.csv")
 #print(data.head())
 
