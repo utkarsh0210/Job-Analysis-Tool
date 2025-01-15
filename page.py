@@ -80,7 +80,7 @@ while(i<len(images)):
     i=i+1
 
 
-st.subheader("Wordcloud")
+st.subheader("Your Preferences")
 jb_options = data['Title'].unique()
 jb_options = ["None"] + jb_options.tolist()
 jb = st.selectbox("Choose an option", jb_options)
